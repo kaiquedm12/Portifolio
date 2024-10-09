@@ -6,9 +6,10 @@ import theme from './theme.ts'
 
 
 
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <ThemeProvider  >
+    <ThemeProvider theme={theme}>
     <CssBaseline/>
     <App />
     </ThemeProvider>
