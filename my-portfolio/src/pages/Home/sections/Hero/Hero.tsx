@@ -1,14 +1,16 @@
 import styled from "@emotion/styled"
 import kaique from "../../../../assets/imagens/kaique.png"
-import { Button, Container, Grid, Typography } from "@mui/material"
+import { Button, Container, Grid, Typography, Theme } from "@mui/material"
 import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 
+
 const Hero = () => {
 
-    const StyledHero = styled("div")(() => ({
-        backgroundColor: "Black",
-        height: "100vh"
+    const StyledHero = styled("div")(({}) => ({
+        backgroundColor: ,
+        height: "100vh",
+
 
     }))
 
