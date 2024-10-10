@@ -7,7 +7,7 @@ import StyledButton from "../../../../components/StyledButton/StyledButton";
 
 const Hero = () => {
 
-    const StyledHero = styled("div")(({theme}) => ({
+    const StyledHero = styled("div")(({ theme }) => ({
         backgroundColor: theme.palette.primary.main,
         height: "100vh",
 
